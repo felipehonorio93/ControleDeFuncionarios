@@ -1,0 +1,77 @@
+﻿@model List<ControleDeFuncionarios.Mvc.Models.ConsultaFuncionarioModel>;
+@{
+    ViewData["Title"] = "Consulta";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h5>Consulta de Funcionários</h5>
+        <p>Listagem de Funcionários Cadastrados.</p>
+        <hr />
+        <div class="table-responsive">
+            <table class="table table-sm" id="tabela-funcionario">
+                <thead>
+                    <tr>
+                        
+                        <th>Foto</th>
+                        <th>Nome do Funcionário</th>
+                        <th>Cargo</th>
+                        <th>Telefone</th>
+                        <th>Data Admissão</th>
+                        <th width="160">Operações</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                 @foreach(var item in Model)
+                    {
+                     <tr>
+                         <th>
+                             <img class="rounded-circle" src="@item.Foto" width="40">
+                         </th>
+                        <th>@item.Nome</th>
+                        <th>@item.Cargo</th>
+                        <th>@item.Telefone</th>
+                        <th>@item.DataAdmissao</th>
+                        <th>
+                            <a href="/Funcionario/Edicao/@item.IdFuncionario"
+                            onclick="return confirm('Deseja editar este Funcionário:');"
+                            class="btn btn-sm btn-primary">
+                            Editar
+                        </a>
+                            <a href="/Funcionario/Exclusao/@item.IdFuncionario"
+                            onclick="return confirm('Deseja excluir este Funcionário?');"
+                            class="btn btn-sm btn-danger">
+                            Excluir
+                            </a>
+                        </th>
+                    </tr>                      
+                }
+                    
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+</div>
+
+@section styles {
+    <link rel="stylesheet" href="~/css/jquery.dataTables.min.css"
+      type="text/css" />
+}
+
+    @section scripts {
+    <script src="~/js/jquery-3.6.1.min.js"></script>
+    <script src="~/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#tabela-funcionario').DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.10.24/i18n/Portuguese-Brasil.json'
+         }
+            });
+        });
+    </script>
+}

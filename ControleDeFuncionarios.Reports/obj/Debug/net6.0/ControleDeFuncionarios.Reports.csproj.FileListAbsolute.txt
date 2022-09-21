@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\bin\Debug\net6.0\ControleDeFuncionarios.Reports.deps.json
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\bin\Debug\net6.0\ControleDeFuncionarios.Reports.dll
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\bin\Debug\net6.0\ControleDeFuncionarios.Reports.pdb
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\bin\Debug\net6.0\ControleDeFuncionarios.Data.dll
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\bin\Debug\net6.0\ControleDeFuncionarios.Data.pdb
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\obj\Debug\net6.0\ControleDeFuncionarios.Reports.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\obj\Debug\net6.0\ControleDeFuncionarios.Reports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\obj\Debug\net6.0\ControleDeFuncionarios.Reports.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\obj\Debug\net6.0\ControleDeFuncionarios.Reports.AssemblyInfo.cs
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\obj\Debug\net6.0\ControleDeFuncionarios.Reports.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\obj\Debug\net6.0\ControleDeFuncionarios.Reports.csproj.CopyComplete
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\obj\Debug\net6.0\ControleDeFuncionarios.Reports.dll
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\obj\Debug\net6.0\refint\ControleDeFuncionarios.Reports.dll
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\obj\Debug\net6.0\ControleDeFuncionarios.Reports.pdb
+C:\Users\User\source\repos\ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Reports\obj\Debug\net6.0\ref\ControleDeFuncionarios.Reports.dll

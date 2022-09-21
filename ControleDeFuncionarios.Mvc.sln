@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleDeFuncionarios.Mvc", "ControleDeFuncionarios.Mvc\ControleDeFuncionarios.Mvc.csproj", "{2D428517-7861-4FFC-B269-61E59C49F1B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Camada de Acesso a dados", "2 - Camada de Acesso a dados", "{D2355CCF-55B6-42AA-8235-AC8557DBC010}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Camada de Apresentação", "1- Camada de Apresentação", "{E338011E-C074-49A1-9EFA-2CA185BC1654}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleDeFuncionarios.Data", "ControleDeFuncionarios.Data\ControleDeFuncionarios.Data.csproj", "{7F3FC9FE-A433-46F7-B9F7-2EF7F9BFEEEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{875390D3-BA2D-4538-A5A9-4E020AAE7BD7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada de Envio de Mensagens", "3 - Camada de Envio de Mensagens", "{06554ECE-EE60-4074-9991-D6F465C5E151}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleDeFuncionarios.Messages", "ControleDefuncionarios.Messages\ControleDeFuncionarios.Messages.csproj", "{82007DFE-42F4-434A-8956-8EDC8DFC1499}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Camada de Relatórios", "4 - Camada de Relatórios", "{17A7A09D-0A7B-4052-87B1-704DD780A986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeFuncionarios.Reports", "ControleDeFuncionarios.Reports\ControleDeFuncionarios.Reports.csproj", "{0792AAFB-36DF-4D28-8EFD-654120649B6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D428517-7861-4FFC-B269-61E59C49F1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D428517-7861-4FFC-B269-61E59C49F1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D428517-7861-4FFC-B269-61E59C49F1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D428517-7861-4FFC-B269-61E59C49F1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3FC9FE-A433-46F7-B9F7-2EF7F9BFEEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3FC9FE-A433-46F7-B9F7-2EF7F9BFEEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3FC9FE-A433-46F7-B9F7-2EF7F9BFEEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3FC9FE-A433-46F7-B9F7-2EF7F9BFEEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82007DFE-42F4-434A-8956-8EDC8DFC1499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82007DFE-42F4-434A-8956-8EDC8DFC1499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82007DFE-42F4-434A-8956-8EDC8DFC1499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82007DFE-42F4-434A-8956-8EDC8DFC1499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0792AAFB-36DF-4D28-8EFD-654120649B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0792AAFB-36DF-4D28-8EFD-654120649B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0792AAFB-36DF-4D28-8EFD-654120649B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0792AAFB-36DF-4D28-8EFD-654120649B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D428517-7861-4FFC-B269-61E59C49F1B3} = {E338011E-C074-49A1-9EFA-2CA185BC1654}
+		{7F3FC9FE-A433-46F7-B9F7-2EF7F9BFEEEC} = {D2355CCF-55B6-42AA-8235-AC8557DBC010}
+		{82007DFE-42F4-434A-8956-8EDC8DFC1499} = {06554ECE-EE60-4074-9991-D6F465C5E151}
+		{0792AAFB-36DF-4D28-8EFD-654120649B6A} = {17A7A09D-0A7B-4052-87B1-704DD780A986}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1879C480-C1DB-4DEC-886F-13E7C1DC7AFF}
+	EndGlobalSection
+EndGlobal
